@@ -1,0 +1,61 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.4,
+	"queries":[
+		{
+			"name":"co_occurrence/example_1",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "start_date":"01/10/2014",
+					   "end_date":"23/07/2016",
+					   "deviceBrand":["regex:tcl"]
+					},
+					   
+			"attributes":{"extras":[
+							{"path":"s3a://sk-telemetry-data/app-telemetry/parquet_daily/SwiftKey_Android_prod/1/com.swiftkey.avro.telemetry.core.events.ActivationEvent/date_received=2015-06-08/", 
+						  		   "format":"parquet", 
+						  		   "key":"metadata.installId",
+						  		   "values":["deviceInfo.os.name"]
+							}
+						]},
+			"query":["donal_trump", "hillary clinton", "regex:bern"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+
+		{
+			"name":"co_occurrence/example_2",
+
+			"filters":{
+					   "geoIP.country":["US", "GB"],
+					   "users_limit":1, 
+					   "freq_limit":1, 
+					   "ngrams":4,
+					   "emoji_sentence":"true",
+					   "start_date":"01/10/2014",
+					   "end_date":"01/11/2015"},
+			"attributes":{"time_division":"weeks"},
+			"query":["birthday"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+
+		{
+			"name":"co_occurrence/example_with_disambiguation_1",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/10/2014"},
+		    "attributes":{"time_division":"weeks"},
+			"query":["flash"],
+			"disambiguation_keywords":["cleaning", "detergent"],
+
+			"type_of_analysis":"trends"
+		}
+		]
+}

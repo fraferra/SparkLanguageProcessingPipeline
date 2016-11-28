@@ -1,0 +1,93 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"stopwords":"s3a://sk-insights/users/francesco/datasets/extra_stopwords.txt",
+	"queries":[
+		{
+			"name":"TEST_NEW/external_datasets_test",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "start_date":"01/10/2014",
+					   "end_date":"01/12/2015"},
+					   
+			"attributes":{"extras":[
+						{"path":"s3a://sk-telemetry-data/app-telemetry/parquet_daily/SwiftKey_Android_prod/1/com.swiftkey.avro.telemetry.core.events.ActivationEvent/date_received=2015-06-08/", 
+						  		   "format":"parquet", 
+						  		   "key":"metadata.installId",
+						  		   "values":["deviceInfo.os.name"]
+				}
+			]},
+			"query":["house"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+
+
+		{
+			"name":"TEST_NEW/san_francisco",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":1, 
+					   "freq_limit":1, 
+					   "ngrams":4,
+					   "start_date":"01/10/2014",
+					   "end_date":"01/11/2015"},
+			"attributes":{"time_division":"weeks",
+						  "gender":"true"
+						 },
+			"query":["san_francisco"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"TEST_NEW/iphone_users_US",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "all_dataset":"true",
+					   "deviceModel":["regex:iphone", "regex:ipad"],
+					   "start_date":"01/10/2014",
+					   "end_date":"01/01/2016"},
+			"attributes":{"geoIP.subdivisions":"true"},
+
+			"type_of_analysis":"users_list"
+		},	
+
+		{
+			"name":"TEST_NEW/csv_external_test",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":1, 
+					   "freq_limit":1, 
+					   "ngrams":2,
+					   "start_date":"01/01/2015",
+					   "end_date":"01/10/2015"},
+			"attributes":{"time_division":"months", "geoIP.city":"true",
+						  "extras":[{"path":"s3a://sk-insights/users/francesco/datasets/id_age.csv", "format":"csv", "key":0, "values":[1]}]},
+			"query":["hello"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"TEST_NEW/tcl_stats",
+
+			"filters":{"all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "users":"s3a://sk-insights/users/francesco/datasets/age_inference/dataset_comunication_social_weekend_2499users_with_CLOUDUSERID",
+					   "deviceBrand":["regex:tcl", "regex:alcatel"],
+					   "start_date":"01/01/2015",
+					   "end_date":"01/01/2016"},
+			"attributes":{"time_division":"years", 
+						  "geoIP.city":"true",
+						  "gender":"true"},
+
+			"type_of_analysis":"stats"
+		}
+		]
+}

@@ -1,0 +1,19 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com,francesco.ferrari.11@ucl.ac.uk",
+	"num_fragments":0.1,
+	"queries":[
+		{
+			"name":"users_MX_GB_CN_IN_200frags",
+
+			"filters":{
+					   "all_dataset":"true",
+					   "start_date":"01/01/2016",
+					   "geoIP.country":["MX","GB","CN","IN"]
+					},
+			"attributes":{"country":"true"},
+			"type_of_analysis":"installids_list"
+		}
+	]
+}

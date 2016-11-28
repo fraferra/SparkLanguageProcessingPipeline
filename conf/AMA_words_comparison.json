@@ -1,0 +1,56 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+	
+
+		{
+			"name":"AMA/fetty",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["fetty"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"AMA/minaj",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["minaj"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+
+		{
+			"name":"AMA/drake",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["drake"],
+
+			"type_of_analysis":"co_occurrence"
+		}
+
+
+
+
+		]
+}

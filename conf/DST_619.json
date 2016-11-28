@@ -1,0 +1,125 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"queries":[
+
+	
+
+		{
+			"name":"DST_619/New_York_emoji",
+
+			"filters":{
+
+					   "emoji_sentence":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["new york"],
+					   "ngrams":1},
+			"attributes":{"time_division":"weeks"
+						 },
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"DST_619/LA_emoji",
+
+			"filters":{
+
+					   "emoji_sentence":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["los angeles","la"],
+					   "ngrams":1},
+			"attributes":{"time_division":"weeks"
+						 },
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"DST_619/LA_emoji",
+
+			"filters":{
+
+					   "all_dataset":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["los angeles","la"],
+					   "ngrams":1},
+			"attributes":{"time_division":"weeks"
+						 },
+
+			"type_of_analysis":"stats"
+		},
+
+		{
+			"name":"DST_619/New_York_emoji",
+
+			"filters":{
+
+					   "all_dataset":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["new york"],
+					   "ngrams":1},
+			"attributes":{"time_division":"weeks"
+						 },
+
+			"type_of_analysis":"stats"
+		},
+
+		{
+			"name":"DST_619/New_York_emoji_no_time_division",
+
+			"filters":{
+
+					   "emoji_sentence":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["new york"],
+					   "ngrams":1},
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"DST_619/LA_emoji_no_time_division",
+
+			"filters":{
+
+					   "emoji_sentence":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["los angeles","la"],
+					   "ngrams":1},
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"DST_619/LA_emoji_no_time_division",
+
+			"filters":{
+
+					   "all_dataset":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["los angeles","la"],
+					   "ngrams":1},
+
+			"type_of_analysis":"stats"
+		},
+
+		{
+			"name":"DST_619/New_York_emoji_no_time_division",
+
+			"filters":{
+
+					   "all_dataset":"true",
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "geoIP.city.name":["new york"],
+					   "ngrams":1},
+			"type_of_analysis":"stats"
+		}
+
+		]
+}

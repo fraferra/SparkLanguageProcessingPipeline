@@ -1,0 +1,54 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"nltk_tokenizer":"true",
+	"num_fragments":0.1,
+	"queries":[
+
+		{
+			"name":"ford",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/10/2014"},
+			"query":["ford"],
+			"disambiguation_keywords":["movie", "cinema", "oscars","tv", "harrison"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"ford",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/10/2014"},
+			"query":["ford"],
+			"disambiguation_keywords":["car", "engine", "insurance"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"ford",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/10/2014"},
+			"query":["ford"],
+
+			"type_of_analysis":"co_occurrence"
+		}
+
+
+
+		]
+}

@@ -1,0 +1,222 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"queries":[
+
+	
+
+		{
+			"name":"PEOPLE_CHOICE/age_of_ultron",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["age_of_ultron"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"PEOPLE_CHOICE/furious_7",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["furious_7"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"PEOPLE_CHOICE/inside_out",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["inside_out"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"PEOPLE_CHOICE/jurassic_world",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["jurassic_world"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/pitch_perfect_2",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["pitch_perfect_2"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/channing",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["channing"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/chris_pratt",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["chris_pratt"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/depp",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["depp"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/downey",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["downey"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/will_smith",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["will_smith"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/hathaway",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["hathaway"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/melissa_mccharthy",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["melissa_mccharthy"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/meryl_streep",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["meryl_streep"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/sandra_bullock",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["sandra_bullock"],
+
+			"type_of_analysis":"trends"
+		},
+			{
+			"name":"PEOPLE_CHOICE/scarlett_johansson",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["scarlett_johansson"],
+
+			"type_of_analysis":"trends"
+		}
+
+		]
+}

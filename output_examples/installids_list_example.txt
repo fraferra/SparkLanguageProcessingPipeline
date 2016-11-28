@@ -1,0 +1,7 @@
+#INSTALLID\tATTRIBUTES
+
+a8379e1a-d23e-4f0c-9276-13136ac449d8	samsung
+c97be69c-adf2-4312-8e55-48b80baf2d19	HUAWEI
+fee1a2eb-056f-49aa-9b69-e4bde33e7e4a	motorola
+f14487e0-d1ab-4601-b31b-6744de2ae4d7	motorola
+9f78919f-7f60-4401-ae52-749551e6d336	Micromax

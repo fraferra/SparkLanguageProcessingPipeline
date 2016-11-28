@@ -1,0 +1,23 @@
+{
+	"input_folder":"sk-lang-datapipeline-insight/data/samples/es_ES/experiments/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"bad_data":"true",
+	"size_dataset":1.0,
+	"queries":[
+
+
+		{
+			"name":"attila_test",
+
+			"filters":{
+					   "all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "ngrams":4},
+			"attributes":{"time_division":"days", "enabledLanguages":"true"},
+			"type_of_analysis":"co_occurrence"
+		}
+
+	]
+}

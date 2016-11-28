@@ -1,0 +1,49 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"nltk_tokenizer":"true",
+	"num_fragments":0.1,
+	"queries":[
+
+
+		{
+			"name":"sentiment/exaple_1",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5,
+					   "start_date":"01/03/2016",
+						"ngrams":2},
+			"attributes":{"geoIP.subdivisions":"true"},
+			"query":["obama"],
+			"type_of_analysis":"sentiment"
+		},
+
+		{
+			"name":"sentiment/exaple_1",
+
+			"filters":{
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "start_date":"01/03/2016",
+						"ngrams":1},
+			"attributes":{"time_division":"weeks"},
+			"query":["trump"],
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"sentiment/exaple_1",
+
+			"filters":{
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "start_date":"01/03/2016",
+						"ngrams":1},
+			"attributes":{"time_division":"weeks"},
+			"query":["aspartame"],
+			"type_of_analysis":"sentiment"
+		}
+
+	]
+}

@@ -1,0 +1,339 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+	
+
+		{
+			"name":"AMA/fall_out_boy",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["fall_out_boy"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/hozier",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["hozier"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/walk_the_moon",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["walk_the_moon"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/hillsong_united",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5,
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["hillsong_united"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/casting_crowns",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["casting_crowns"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/mercyme",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["mercyme"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/enrique_iglesias",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["enrique_iglesias"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/ricky_martin",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["ricky_martin"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/romeo_santos",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["romeo_santos"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/florida_georgia_line",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["florida_georgia_line"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA/little_big_town",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["little_big_town"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA/zac_brown_band",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["zac_brown_band"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/carrie_underwood",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["carrie_underwood"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA/kelsea_ballerini",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["kelsea_ballerini"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA/miranda_lambert",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["miranda_lambert"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/onerepublic",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["onerepublic"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/pure_heroine",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["pure_heroine"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/kacey_musgraves",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["kacey_musgraves"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/blake_shelton",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["blake_shelton"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/jason_aldean",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["jason_aldean"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA/bastille",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["bastille"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/avicii",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["avicii"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/newsboys",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["newsboys"],
+
+			"type_of_analysis":"trends"
+		}
+
+
+
+		]
+}

@@ -1,0 +1,76 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+	
+
+		{
+			"name":"AMA_2015/rihanna",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014",
+					   "end_date":"01/01/2016"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["rihanna"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA_2015/rihanna",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014",
+					   "end_date":"01/01/2016"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["rihanna"],
+
+			"type_of_analysis":"sentiment"
+		},
+
+		{
+			"name":"AMA_2015/sam_hunt",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014",
+					   "end_date":"01/01/2016"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["sam_hunt"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA_2015/sam_hunt",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014",
+					   "end_date":"01/01/2016"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["sam_hunt"],
+
+			"type_of_analysis":"sentiment"
+		}
+
+
+		]
+}

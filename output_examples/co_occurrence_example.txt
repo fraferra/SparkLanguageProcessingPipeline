@@ -1,0 +1,7 @@
+
+#CO_OCCURRING_WORDS\tATTRIBUTES\tTOTAL_NGRAM_COUNT\tTOTAL_NUMBER_OF_UNIQUE_USERS
+
+donald trump is running for	2015-06-14	Gender_FEMALE	21	21
+trump is running for president	2015-06-14	Gender_MALE	20	18
+donald trump is running for	2015-06-14	Gender_MALE	20	18
+trump is running for president	2015-06-14	Gender_FEMALE	16	16

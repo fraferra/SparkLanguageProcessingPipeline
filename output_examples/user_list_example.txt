@@ -1,0 +1,8 @@
+#CLOUDUSERID\tATTRIBUTES
+
+d74df019-936c-47d0-6535-66c82d997366	Xiaomi
+0b06c70f-47fc-4d0a-59d7-c49c6c0ee29d	oneplus
+6b27fe77-df9e-4597-4c23-758d3498cf22	XOLO
+5d87858a-e562-4a5e-66f1-074fb6beba5c	Xiaomi
+ef26c406-43b0-41cc-7d03-fa79b23fe848	samsung
+39709e6d-6267-4d44-b363-10a6cededd74	Micromax

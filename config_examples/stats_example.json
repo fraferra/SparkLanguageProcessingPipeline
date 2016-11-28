@@ -1,0 +1,25 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+		{
+			"name":"stats/example_1",
+
+			"filters":{"all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "users":"s3a://sk-insights/users/francesco/datasets/age_inference/dataset_comunication_social_weekend_2499users_with_CLOUDUSERID",
+					   "deviceBrand":["regex:tcl", "regex:alcatel"],
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"months", 
+						  "geoIP.city":"true",
+						  "geoIP.subdivisions":"true",
+						  "gender":"true"},
+
+			"type_of_analysis":"stats"
+		}
+		]
+}

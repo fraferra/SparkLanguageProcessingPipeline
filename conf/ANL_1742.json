@@ -1,0 +1,25 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":1.0,
+	"queries":[
+
+		{
+			"name":"ANL_1742/IN_users_device",
+
+			"filters":{
+						"all_dataset":"true",
+
+					   "start_date":"01/01/2015",
+					   "geoIP.country":["IN"]
+					},
+
+			"attributes":{"deviceBrand":"true"},
+			"query":["uri"],
+
+			"type_of_analysis":"installids_list"
+		}
+
+		]
+}

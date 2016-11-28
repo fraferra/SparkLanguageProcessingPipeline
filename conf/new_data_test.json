@@ -1,0 +1,26 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":1.0,
+	"queries":[
+
+	
+
+		{
+			"name":"NEW_DATA_TEST/new_stats",
+
+			"filters":{
+					   "users_limit":1, 
+					   "freq_limit":1, 
+					   "ngrams":1,
+					   "all_dataset":"true",
+					   "start_date":"01/02/2016"},
+			"attributes":{"time_division":"days"
+						 },
+
+			"type_of_analysis":"stats"
+		}
+
+		]
+}

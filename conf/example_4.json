@@ -1,0 +1,25 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"stopwords":"s3a://sk-insights/users/francesco/datasets/extra_stopwords.txt",
+	"queries":[
+
+		{
+			"name":"TEST/tcl_stats",
+
+			"filters":{"all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "users":"s3a://sk-insights/users/francesco/pipeline_data_v_3_0/users_list/605_users_MX_GB_CN_IN_200frags_1",
+					   "deviceBrand":["regex:tcl", "regex:alcatel"],
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"years", 
+						  "geoIP.city.name":"true",
+						  "gender":"true"},
+
+			"type_of_analysis":"stats"
+		}
+		]
+}

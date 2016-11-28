@@ -1,0 +1,73 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com,francesco.ferrari.11@ucl.ac.uk",
+	"num_fragments":0.1,
+	"queries":[
+		{
+			"name":"android_users",
+
+			"filters":{
+					   "all_dataset":"true",
+					   "start_date":"01/10/2014",
+					   "extras":[ {"path":"s3a://sk-telemetry-data/app-telemetry/parquet_daily/SwiftKey_Android_prod/1/com.swiftkey.avro.telemetry.core.events.ActivationEvent/date_received=2015-06-08/", 
+						  		   "format":"parquet", 
+						  		   "identifier":"metadata.installId",
+						  		   "key":"deviceInfo.os.name", 
+						  		   "values":["android", "ANDROID"]}
+						  		 ]
+					   },
+
+			"type_of_analysis":"users_list"
+		},	
+		{
+			"name":"san_francisco_all_dataset",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":1, 
+					   "freq_limit":1, 
+					   "ngrams":2,
+					   "start_date":"01/10/2014",
+					   "end_date":"01/11/2015"},
+			"attributes":{"time_division":"weeks",
+						  "gender":"true"
+						 },
+			"query":["hi"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+	
+		{
+			"name":"sanders_trends",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":10, 
+					   "freq_limit":10, 
+					   "ngrams":1,
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"months", "city":"true"},
+			"query":["regex:sander","regex:bern"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"tcl_stats",
+
+			"filters":{"all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "deviceBrand":["regex:tcl", "regex:alcatel"],
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"months", 
+						  "country":"true",
+						  "gender":"true",
+						  "extras":[{"path":"s3a://sk-insights/users/francesco/datasets/id_age.csv", 
+						  			 "format":"csv",
+						  			 "key":0,
+						  			 "values":[1]}]},
+			"type_of_analysis":"stats"
+		}
+	]
+}

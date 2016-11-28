@@ -1,0 +1,43 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+	
+
+		{
+			"name":"AEG_Events/1grams_359ARTISTS",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"weeks",
+						  "geoIP.city.name":"true"
+						 },
+			"type_of_analysis":"trends",
+			"query":["cher", "volbeat", "r5 ", "pentatonix ", "juanes", "jaheim", "g-eazy", "timeflies", "skrillex", "lotus", "excision", "stromae",  "morrissey", "shpongle",  "needtobreathe", "moe.",  "primus", "gramatik", "bastille", "soja", "alt-j", "yanni", "bonobo", "flosstradamus", "pinback", "ledisi", "seether", "madeon", "datsik", "atmosphere", "eels", "partynextdoor", "muse", "kem", "pennywise", "gwar", "broods", "papadosio", "griz", "polica", "megadeth", "yelawolf", "cherub", "switchfoot", "hozier", "wale", "bassnectar", "matisyahu", "chromeo", "rebelution", "onerepublic"]
+			
+		},
+		{
+			"name":"AEG_Events/2grams_919ARTISTS",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"weeks",
+						  "geoIP.city.name":"true"
+						 },
+			"type_of_analysis":"trends",
+			"query":["eric_church", "hunter_hayes", "kenny_chesney", "austin_mahone", "bon_jovi", "taylor_swift", "george_strait", "john_mellencamp", "cody_simpson", "justin_bieber", "katy_perry", "jake_owen", "carrie_underwood", "charlie_wilson", "ed_sheeran", "the_who", "j_cole", "fifth_harmony", "kacey_musgraves", "bruno_mars", "barry_manilow", "alicia_keys", "mindless_behavior", "darius_rucker", "lindsey_stirling", "kanye_west", "tech_n9ne", "paul_mccartney", "hoodie_allen", "keith_urban", "steely_dan", "bob_dylan", "milky_chance", "the_mavericks", "amos_lee", "american_authors", "jackie_evancho", "schoolboy_q", "beats_antique_", "lady_antebellum", "big_gigantic", "art_garfunkel", "gregg_allman", "lord_huron", "jackson_browne", "leonard_cohen", "the_lumineers", "infected_mushroom", "steel_panther", "feed_me", "willie_nelson", "rick_ross", "merle_haggard", "st._lucia", "kendrick_lamar", "scotty_mccreery", "citizen_cope", "say_anything", "suicidal_tendencies", "the_neighbourhood", "tommy_emmanuel", "gov't_mule", "kid_ink", "sammy_adams", "steve_hackett", "streetlight_manifesto", "ariana_grande_", "john_fogerty", "ingrid_michaelson", "capital_cities", "brand_new", "b.b._king", "lyle_lovett", "skinny_puppy", "railroad_earth", "marilyn_manson", "ellie_goulding", "peter_frampton", "alabama_shakes", "café_tacvba", "the_mowgli's", "the_pixies", "asking_alexandria", "the_expendables", "pretty_lights", "circa_survive", "bonnie_raitt", "dirty_heads", "passion_pit", "the_cult", "adam_ant", "adventure_club", "sufjan_stevens", "paloma_faith", "phillip_phillips", "rod_stewart", "shawn_mendes_", "vampire_weekend", "dropkick_murphys", "john_legend", "sigur_ros", "martina_mcbride", "the_fray", "judas_priest", "peter_murphy", "cat_power", "b.a.p._(best.absolute.perfect)", "richard_marx", "imagine_dragons", "kenny_g", "ray_lamontagne", "living_colour", "broken_bells", "mac_miller", "brantley_gilbert", "josh_ritter", "andy_grammer", "mat_kearney", "alex_clare", "lynyrd_skynyrd", "gogol_bordello", "vance_joy", "elton_john", "alan_jackson", "clean_bandit", "fka_twigs", "romeo_santos", "new_edition", "killswitch_engage", "tame_impala", "umphrey's_mcgee", "gaelic_storm", "kina_grannis", "mayday_parade", "stephen_marley", "sara_bareilles", "matty_b", "against_me!", "alter_bridge", "diana_ross", "grace_potter", "the_orb", "elvis_costello", "todd_rundgren"]
+
+		}
+		]
+}

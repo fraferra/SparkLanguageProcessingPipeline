@@ -1,0 +1,71 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+		{
+			"name":"UX_bug/swiftkey",
+
+			"filters":{
+
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "start_date":"01/01/2015",
+					   "geoIP.country":["TR","AZ","TJ","RU"],
+					   "ngrams":1},
+			"attributes":{"geoIP.country":"true",
+						  "time_division":"months"
+						 },
+			"query":["%","$","€", "¥", "¢", "©","®","™","~","¿","[","]","{","}","<",">","^","¡","`","÷","\\","|","¦","¬","¶","§","×","º"],
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"UX_bug/flexi",
+
+			"filters":{
+
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "start_date":"01/01/2015",
+					   "geoIP.country":["TR","AZ","TJ","RU"],
+					   "ngrams":1},
+			"attributes":{"geoIP.country":"true","time_division":"months"
+						 },
+			"query":["₺","₽","₣"],
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"UX_bug/google",
+
+			"filters":{
+
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "start_date":"01/01/2015",
+					   "geoIP.country":["TR","AZ","TJ","RU"],
+					   "ngrams":1},
+			"attributes":{"geoIP.country":"true","time_division":"months"
+						 },
+			"query":["●","√","π","∆","℅"],
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"UX_bug/swype",
+
+			"filters":{
+
+					   "users_limit":2, 
+					   "freq_limit":2,
+					   "start_date":"01/01/2015",
+					   "geoIP.country":["TR","AZ","TJ","RU"],
+					   "ngrams":1},
+			"attributes":{"geoIP.country":"true","time_division":"months"
+						 },
+			"query":["«","»","‰","±","½","¤","№","“","≠","≈","µ"],
+			"type_of_analysis":"trends"
+		}
+
+		]
+}

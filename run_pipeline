@@ -1,0 +1,8 @@
+#!/bin/bash
+myvar="$PWD"
+nameJob="Language Pipeline: $2"
+ $SPARK_HOME/./bin/spark-submit --name "$nameJob" --packages com.databricks:spark-avro_2.10:1.0.0,com.databricks:spark-csv_2.10:1.0.3 \
+ --jars $myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/external_jars/aws-java-sdk-1.7.4.jar,$myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/external_jars/avro-mapred-1.7.7.jar,$myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/external_jars/hadoop-aws-2.7.1.jar, \
+  --py-files $myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/external_eggs/pidgin-2.1.0-py2.7-linux-x86_64.egg,$myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/external_eggs/ghostrecon-1.0.0-py2.7-linux-x86_64.egg,$myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/external_eggs/scikit_learn-0.18.dev0-py2.7-linux-x86_64.egg,$myvar/data-insights-jobs/experiments/francesco/app_v_3_0/lib/egg/dist/extra_functions-0.1-py2.7.egg \
+  $myvar/data-insights-jobs/experiments/francesco/app_v_3_0/pipeline_v_3_1.py \
+   --file $1 

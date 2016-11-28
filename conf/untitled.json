@@ -1,0 +1,264 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.05,
+	"queries":[
+
+	
+
+		{
+			"name":"PEOPLE_CHOICE/conan_o'brien",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["conan_o'brien"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"PEOPLE_CHOICE/james_corden",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["james_corden"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"PEOPLE_CHOICE/jimmy_fallon",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["jimmy_fallon"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"PEOPLE_CHOICE/jimmy_kimmel",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["jimmy_kimmel"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/stephen_colbert",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["stephen_colbert"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/cinderella",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["cinderella"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/hotel_transylvania",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["hotel_transylvania"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/minions",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["minions"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/demi_lovato",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["demi_lovato"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/lana_del_rey",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["lana_del_rey"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/madonna",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["madonna"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/selena_gomez",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["selena_gomez"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/fifth_harmony",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["fifth_harmony"],
+
+			"type_of_analysis":"trends"
+		},
+				{
+			"name":"PEOPLE_CHOICE/american_horror_sotry",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["american_horror_sotry"],
+
+			"type_of_analysis":"trends"
+		},
+			{
+			"name":"PEOPLE_CHOICE/game_of_thrones",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["game_of_thrones"],
+
+			"type_of_analysis":"trends"
+		},
+					{
+			"name":"PEOPLE_CHOICE/outlander",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["outlander"],
+
+			"type_of_analysis":"trends"
+		},
+					{
+			"name":"PEOPLE_CHOICE/teen_wolf",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["teen_wolf"],
+
+			"type_of_analysis":"trends"
+		},
+					{
+			"name":"PEOPLE_CHOICE/the_walking_dead",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["the_walking_dead"],
+
+			"type_of_analysis":"trends"
+		}
+
+		]
+}

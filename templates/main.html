@@ -1,0 +1,49 @@
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div style="margin:50px">
+<form action="/form" method="POST">
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">Name Spark Job</span>
+	  <input type="text" class="form-control" placeholder="TestJob" aria-describedby="basic-addon1" name="name_job">
+	</div>
+
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">Input Folder</span>
+	  <input type="text" class="form-control" placeholder="s3a://sk-model/jobs/MetadataInferenceRerun2016_OldSDK/" aria-describedby="basic-addon1" name="input_folder">
+	</div>
+
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">Output Folder</span>
+	  <input type="text" class="form-control" placeholder="s3a://sk-model/jobs/MetadataInferenceRerun2016_OldSDK/" aria-describedby="basic-addon1" name="output_folder">
+	</div>
+
+
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">Output Email</span>
+	  <input type="text" class="form-control" placeholder="s3a://sk-model/jobs/MetadataInferenceRerun2016_OldSDK/" aria-describedby="basic-addon1" name="output_email">
+	</div>
+
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">% Dataset</span>
+	  <input type="text" class="form-control" placeholder="s3a://sk-model/jobs/MetadataInferenceRerun2016_OldSDK/" aria-describedby="basic-addon1" name="num_fragments">
+	</div>
+
+	{% for address_entry_form in form.addresses %}
+  		{{ forms.render_field(address_entry_form.name) }}
+	{% endfor %}
+	<div class="input-group">
+		<input type="submit" name="my-form" value="Send">	
+	</div>
+</form>
+
+</div>
+</body>

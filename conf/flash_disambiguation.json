@@ -1,0 +1,65 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+		{
+			"name":"flash_detergent",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/10/2014"},
+		    "attributes":{"time_division":"weeks"},
+			"query":["flash"],
+			"disambiguation_keywords":["cleaning", "detergent"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"flash_tech",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/10/2014"},
+		    "attributes":{"time_division":"weeks"},
+			"query":["flash"],
+			"disambiguation_keywords":["drive", "software", "usb", "device"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"flash_tv",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/10/2014"},
+			"query":["flash"],
+			"disambiguation_keywords":["tv", "series"],
+			"attributes":{"time_division":"weeks"},
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"flash_general",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/10/2014"},
+			"query":["flash"],
+			"attributes":{"time_division":"weeks"},
+			"type_of_analysis":"trends"
+		}
+
+
+
+		]
+}

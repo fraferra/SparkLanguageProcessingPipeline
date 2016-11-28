@@ -1,0 +1,8 @@
+#KEYWORD\tATTRIBUTES\tTOTAL_NGRAM_COUNT\tTOTAL_NUMBER_OF_UNIQUE_USERS
+
+hard rock	2016-04	Florida	253	185
+hard rock	2015-08	Florida	235	162
+hard rock	2015-07	Florida	207	157
+hard rock	2016-06	Florida	204	151
+hard rock	2016-05	Florida	209	146
+hard rock	2016-03	Florida	184	134

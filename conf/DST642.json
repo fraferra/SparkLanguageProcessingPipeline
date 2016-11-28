@@ -1,0 +1,56 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":1.0,
+	"queries":[
+
+		{
+			"name":"DST642/3grams",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/06/2016",
+					   "geoIP.country":["US","GB"],
+					   "end_date":"01/07/2016"
+					},
+
+			"query":["uri"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"DST642/1grams",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "start_date":"01/06/2016",
+					   "geoIP.country":["US", "GB"],
+					   "end_date":"01/07/2016"
+					},
+
+			"query":["uri"],
+
+			"type_of_analysis":"co_occurrence"
+		},
+		{
+			"name":"DST642/stats",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "start_date":"01/06/2016",
+					   "geoIP.country":["US", "GB"],
+					   "end_date":"01/07/2016"
+					},
+
+			"query":["uri"],
+
+			"type_of_analysis":"stats"
+		}
+
+		]
+}

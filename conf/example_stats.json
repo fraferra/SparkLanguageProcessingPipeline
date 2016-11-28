@@ -1,0 +1,38 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"num_fragments":0.5,
+	"output_email":"frferrar@microsoft.com,francesco.ferrari.11@ucl.ac.uk",
+	"queries":[
+
+		{
+			"name":"tcl_stats_os_country",
+
+			"filters":{"all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "deviceBrand":["regex:tcl", "regex:alcatel"],
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"months", 
+						  "geoIP.country":"true",
+						  "extras":[ {"path":"s3a://sk-telemetry-data/app-telemetry/parquet_daily/SwiftKey_Android_prod/1/com.swiftkey.avro.telemetry.core.events.ActivationEvent/date_received=2015-06-08/", 
+						  			 "format":"parquet", 
+						  			 "key":"metadata.installId", 
+						  			 "values":["deviceInfo.os.name"]}]
+						},
+			"type_of_analysis":"stats"
+		},
+		{
+			"name":"tcl_stats_city_new",
+
+			"filters":{"all_dataset":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "deviceBrand":["regex:tcl", "regex:alcatel"],
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"months", "city":"true"},
+
+			"type_of_analysis":"stats"
+		}
+		]
+}

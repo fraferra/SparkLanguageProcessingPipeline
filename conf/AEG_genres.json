@@ -1,0 +1,110 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"queries":[
+
+		{
+			"name":"AEG_Events/genres_city_part3",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"months",
+						  "geoIP.city.name":"true"
+						 },
+			"type_of_analysis":"trends",
+			"disambiguation_keywords":["music"],
+			"query":["country_dawn", "dream_pop", "neo_soul", "industrial_metal", "freak_folk", "alternative_metal", "new_rave", "hard_rock", "chillwave", "skate_punk", "ska_punk", "melancholia", "nu_metal", "industrial", "moombahton", "juggalo", "alternative_dance", "texas_blues", "underground_pop_rap", "traditional_folk", "alternative_rock", "edm", "latin", "melodic_metalcore", "pop_rap", "new_americana"]
+		},
+
+		{
+			"name":"AEG_Events/genres_state_part3",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"months",
+						  "geoIP.subdivisions":"true"
+						 },
+			"type_of_analysis":"trends",
+			"disambiguation_keywords":["music"],
+			"query":["country_dawn", "dream_pop", "neo_soul", "industrial_metal", "freak_folk", "alternative_metal", "new_rave", "hard_rock", "chillwave", "skate_punk", "ska_punk", "melancholia", "nu_metal", "industrial", "moombahton", "juggalo", "alternative_dance", "texas_blues", "underground_pop_rap", "traditional_folk", "alternative_rock", "edm", "latin", "melodic_metalcore", "pop_rap", "new_americana"]
+		},	
+
+		{
+			"name":"AEG_Events/genres_city_part1",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"months",
+						  "geoIP.city.name":"true"
+						 },
+			"type_of_analysis":"trends",
+			"disambiguation_keywords":["music"],
+			"query":["teen_pop", "contemporary_country", "alternative_hip_hop", "country", "country_road", "mellow_gold", "rock", "modern_country_rock", "shimmer_pop", "pop_christmas", "pop", "pop_punk", "indie_pop", "folk", "brostep", "indie_christmas", "soft_rock", "heavy_christmas", "country_christmas", "indietronica", "indie_r&b", "roots_rock", "jam_band", "classic_rock", "indie_folk", "singer-songwriter", "blues-rock", "southern_rock", "metropopolis", "metalcore", "stomp_and_holler", "folk_rock", "punk_christmas", "country_rock", "latin_pop", "synthpop", "r&b"]
+		},
+
+		{
+			"name":"AEG_Events/genres_state_part1",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"months",
+						  "geoIP.subdivisions":"true"
+						 },
+			"type_of_analysis":"trends",
+			"disambiguation_keywords":["music"],
+			"query":["teen_pop", "contemporary_country", "alternative_hip_hop", "country", "country_road", "mellow_gold", "rock", "modern_country_rock", "shimmer_pop", "pop_christmas", "pop", "pop_punk", "indie_pop", "folk", "brostep", "indie_christmas", "soft_rock", "heavy_christmas", "country_christmas", "indietronica", "indie_r&b", "roots_rock", "jam_band", "classic_rock", "indie_folk", "singer-songwriter", "blues-rock", "southern_rock", "metropopolis", "metalcore", "stomp_and_holler", "folk_rock", "punk_christmas", "country_rock", "latin_pop", "synthpop", "r&b"]
+		},
+
+		{
+			"name":"AEG_Events/genres_city_part2",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"months",
+						  "geoIP.city.name":"true"
+						 },
+			"type_of_analysis":"trends",
+			"disambiguation_keywords":["music"],
+			"query":[ "dance_rock", "new_wave", "trap_music", "pop_rock", "hurban", "album_rock", "chamber_pop", "emo", "permanent_wave", "electro_house", "dance_pop", "bow_pop", "funk_metal", "urban_contemporary", "adult_standards", "christian_alternative_rock", "post-grunge", "neo_mellow", "industrial_rock", "christian_rock", "screamo", "folk_christmas", "folk-pop", "rap_rock", "complextro", "wonky", "big_room", "british_blues", "groove_metal", "neo-psychedelic", "funk_rock", "metal", "traditional_country", "nashville_sound", "alternative_country", "indie_rock", "electric_blues"]
+		},
+
+		{
+			"name":"AEG_Events/genres_state_part2",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "geoIP.country":["US"],
+					   "start_date":"01/01/2013"},
+			"attributes":{"time_division":"months",
+						  "geoIP.subdivisions":"true"
+						 },
+			"type_of_analysis":"trends",
+			"disambiguation_keywords":["music"],
+			"query":[ "dance_rock", "new_wave", "trap_music", "pop_rock", "hurban", "album_rock", "chamber_pop", "emo", "permanent_wave", "electro_house", "dance_pop", "bow_pop", "funk_metal", "urban_contemporary", "adult_standards", "christian_alternative_rock", "post-grunge", "neo_mellow", "industrial_rock", "christian_rock", "screamo", "folk_christmas", "folk-pop", "rap_rock", "complextro", "wonky", "big_room", "british_blues", "groove_metal", "neo-psychedelic", "funk_rock", "metal", "traditional_country", "nashville_sound", "alternative_country", "indie_rock", "electric_blues"]
+		}
+		]
+}

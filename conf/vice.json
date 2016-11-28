@@ -1,0 +1,25 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"queries":[
+
+	
+
+		{
+			"name":"old_old_sad_emoji",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":1, 
+					   "freq_limit":1, 
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["🙁"],
+
+			"type_of_analysis":"trends"
+		}
+		]
+}

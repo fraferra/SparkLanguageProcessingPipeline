@@ -1,0 +1,131 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+		{
+			"name":"DST_645_2014/Navratri/emoji_mumbai",
+			"type_of_analysis":"co_occurrence",
+			"filters":{"start_date":"25/09/2014",
+						"emoji_sentence":"true",
+					   "geoIP.country":["IN"],
+					   "end_date":"03/10/2014",
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "geoIP.location":["19.0,72.8"]}
+		},
+
+		{
+			"name":"DST_645_2014/NoFestival/emoji_mumbai",
+			"type_of_analysis":"co_occurrence",
+			"filters":{"start_date":"1/1/2014",
+			"emoji_sentence":"true",
+					   "geoIP.country":["IN"],
+					   "end_date":"1/1/2015",
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "geoIP.location":["19.0,72.8"]}
+		},
+		{
+			"name":"DST_645_2014/Navratri/emoji_delhi",
+			"type_of_analysis":"co_occurrence",
+			"filters":{"start_date":"25/09/2014",
+			"emoji_sentence":"true",
+					   "geoIP.country":["IN"],
+					   "end_date":"03/10/2014",
+					   "users_limit":5,
+					   "freq_limit":5,
+						"geoIP.location":["28.6,77.3"]}
+		},
+
+		{
+			"name":"DST_645_2014/NoFestival/emoji_delhi",
+			"type_of_analysis":"co_occurrence",
+			"filters":{
+			"start_date":"1/1/2014",
+					   "geoIP.country":["IN"],
+					   "emoji_sentence":"true",
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "end_date":"1/1/2015",
+			"geoIP.location":["28.6,77.3"]}
+		},
+				{
+			"name":"DST_645_2014/Navratri/emoji_chennai",
+			"type_of_analysis":"co_occurrence",
+			"filters":{
+			"start_date":"25/09/2014",
+					   "geoIP.country":["IN"],
+					   "emoji_sentence":"true",
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "end_date":"03/10/2014",
+			"geoIP.location":["13.0,80.2"]}
+		},
+
+		{
+			"name":"DST_645_2014/NoFestival/emoji_chennai",
+			"type_of_analysis":"co_occurrence",
+			"filters":{
+						"start_date":"1/1/2014",
+						"emoji_sentence":"true",
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "geoIP.country":["IN"],
+					   "end_date":"1/1/2015",
+			"geoIP.location":["13.0,80.2"]}
+		},
+				{
+			"name":"DST_645_2014/Navratri/emoji_calcutta",
+			"type_of_analysis":"co_occurrence",
+			"filters":{			"start_date":"25/09/2014",
+			"emoji_sentence":"true",
+					   "geoIP.country":["IN"],
+					   "end_date":"03/10/2014",
+					   "users_limit":5,
+					   "freq_limit":5,
+			"geoIP.location":["22.5,88.4"]}
+		},
+
+		{
+			"name":"DST_645_2014/NoFestival/emoji_calcutta",
+			"type_of_analysis":"co_occurrence",
+			"filters":{
+						"start_date":"1/1/2014",
+						"emoji_sentence":"true",
+					   "geoIP.country":["IN"],
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "end_date":"1/1/2015",
+			"geoIP.location":["22.5,88.4"]}
+		},
+		{
+			"name":"DST_645_2014/Navratri/emoji_india",
+			"type_of_analysis":"co_occurrence",
+			"filters":{
+						"start_date":"25/09/2014",
+						"emoji_sentence":"true",
+					   "geoIP.country":["IN"],
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "end_date":"03/10/2014"}
+		},
+
+		{
+			"name":"DST_645_2014/NoFestival/emoji_india",
+			"type_of_analysis":"co_occurrence",
+			"filters":{
+				"start_date":"1/1/2014",
+					   "geoIP.country":["IN"],
+					   "users_limit":5,
+					   "freq_limit":5,
+					   "emoji_sentence":"true",
+					   "end_date":"1/1/2015"}
+		}
+
+
+
+		]
+
+}

@@ -1,0 +1,37 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.8,
+	"queries":[
+	
+		{
+			"name":"users_list/example_1",
+
+			"filters":{
+					   "geoIP.city.name":["regex:new york", "san francisco"],
+					   "all_dataset":"true",
+					   "deviceModel":["regex:iphone", "regex:ipad"],
+					   "start_date":"01/10/2014"},
+			"attributes":{"geoIP.subdivisions":"true", "geoIP.city.name":"true"},
+
+			"type_of_analysis":"users_list"
+		},	
+
+
+		{
+			"name":"installids_list/example_1",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "start_date":"01/10/2014"},
+			"attributes":{"deviceBrand":"true"},
+
+			"query":["sync issue", "sync swiftkey"],
+
+			"type_of_analysis":"installids_list"
+		}
+
+	
+		]
+}

@@ -1,0 +1,25 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"queries":[
+
+		{
+			"name":"ford",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":1,
+					   "start_date":"01/01/2013",
+					   "end_date":"01/06/2016"},
+		    "attributes":{"time_division":"weeks"},
+			"query":["ford", "donald_trump"],
+
+			"type_of_analysis":"trends"
+		}
+
+		]
+}

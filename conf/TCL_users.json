@@ -1,0 +1,20 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.2,
+	"queries":[
+		{
+			"name":"TCL_users_cloudUser_installId",
+
+			"filters":{
+					   "installIds":"s3a://sk-insights/users/francesco/sk-users/TCL_users.txt",
+					   "all_dataset":"true",
+					   "start_date":"01/01/2016",
+					   "geoIP.country":["US"]
+					},
+			"attributes":{"installId":"true"},
+			"type_of_analysis":"users_list"
+		}
+	]
+}

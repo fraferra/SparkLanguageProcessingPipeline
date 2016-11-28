@@ -1,0 +1,298 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.3,
+	"queries":[
+
+	
+
+		{
+			"name":"AMA/garth_brooks",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["garth_brooks"],
+
+			"type_of_analysis":"trends"
+		},
+
+		{
+			"name":"AMA/eric_church",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["eric_church"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/brantley_gilbert",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["brantley_gilbert"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/sara_bareilles",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["sara_bareilles"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/eli_young_band",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["eli_young_band"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/lady_antebellum",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["lady_antebellum"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/jhene_aiko",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["jhene_aiko"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/5_seconds_of_summer",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":4,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["5_seconds_of_summer"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/trey_songz",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["trey_songz"],
+
+			"type_of_analysis":"trends"
+		},
+		{
+			"name":"AMA/tove_lo",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["tove_lo"],
+
+			"type_of_analysis":"trends"
+		},
+
+
+
+		{
+			"name":"AMA/garth_brooks",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["garth_brooks"],
+
+			"type_of_analysis":"sentiment"
+		},
+
+		{
+			"name":"AMA/eric_church",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["eric_church"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/brantley_gilbert",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["brantley_gilbert"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/sara_bareilles",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["sara_bareilles"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/eli_young_band",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":3,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["eli_young_band"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/lady_antebellum",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["lady_antebellum"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/jhene_aiko",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["jhene_aiko"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/5_seconds_of_summer",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":4,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["5_seconds_of_summer"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/trey_songz",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["trey_songz"],
+
+			"type_of_analysis":"sentiment"
+		},
+		{
+			"name":"AMA/tove_lo",
+
+			"filters":{
+					   "users_limit":5, 
+					   "freq_limit":5, 
+					   "ngrams":2,
+					   "start_date":"01/01/2014"},
+			"attributes":{"time_division":"weeks"
+						 },
+			"query":["tove_lo"],
+
+			"type_of_analysis":"sentiment"
+		}
+
+
+		]
+}

@@ -1,0 +1,26 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com",
+	"num_fragments":0.25,
+	"queries":[
+
+
+		{
+			"name":"trends/example_1",
+
+			"filters":{
+					   "geoIP.country":["US"],
+					   "users_limit":4, 
+					   "freq_limit":3, 
+					   "ngrams":2,
+					   "start_date":"01/01/2015"},
+			"attributes":{"time_division":"months", "geoIP.city":"true",
+						  "extras":[{"path":"s3a://sk-insights/users/francesco/datasets/id_age.csv", "format":"csv", "key":0, "values":[1]}]},
+			"query":["regex:sander","regex:bern"],
+
+			"type_of_analysis":"trends"
+		}
+		
+		]
+}

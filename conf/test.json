@@ -1,0 +1,21 @@
+{
+	"input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+	"output_folder":"sk-insights/users/francesco/pipeline_data_v_3_0/",
+	"output_email":"frferrar@microsoft.com,francesco.ferrari.11@ucl.ac.uk",
+	"num_fragments":0.01,
+	"queries":[
+
+
+		{
+			"name":"emoji_sentence",
+
+			"filters":{"emoji_sentence":"true",
+					   "users_limit":1, 
+					   "freq_limit":1,
+					   "ngrams":3,
+					   "end_date":"01/01/2016"},
+			"type_of_analysis":"co_occurrence"
+		}
+
+	]
+}

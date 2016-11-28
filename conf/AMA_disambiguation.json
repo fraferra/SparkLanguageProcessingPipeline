@@ -1,0 +1,45 @@
+{
+        "input_folder":"sk-model/jobs/MetadataInferenceRerun2016_OldSDK/",
+        "output_folder":"sk-insights/users/andrei/pipeline_data_v_3_0/",
+        "output_email":"anpopesc@microsoft.com",
+        "num_fragments":0.3,
+        "nltk_tokenizer":"false",
+        "queries":[
+
+                {
+                        "name":"AMA/minaj",
+
+                        "filters":{
+                                           "users_limit":5,
+                                           "freq_limit":5,
+                                           "start_date":"01/01/2016"},
+                        "attributes":{"time_division":"weeks"
+                                                 },
+                        "query":["minaj"],
+                        "disambiguation_keywords":["award","vote","nomination","music"],
+
+                        "type_of_analysis":"co_occurrence"
+                },
+
+                {
+                        "name":"AMA/drake",
+
+                        "filters":{
+                                           "users_limit":5,
+                                           "freq_limit":5,
+                                           "ngrams":1,
+                                           "start_date":"01/01/2016"},
+                        "attributes":{"time_division":"weeks"
+                                                 },
+                        "query":["drake"],
+                        "disambiguation_keywords":["award","vote","nomination","music"],
+
+
+                        "type_of_analysis":"co_occurrence"
+                }
+
+
+
+
+                ]
+}
